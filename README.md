@@ -13,14 +13,15 @@ Generates hall of fame for github readme using the github contributors api
 > Code is not deployed anywhere, so below are steps for local setup
 
 - Clone the repository
-  `git clone https://github.com/arshadkazmi42/rhof`
+  - `git clone https://github.com/arshadkazmi42/rhof`
 - Go to root directory
-  `cd rhof`
+  - `cd rhof`
 - Install dependencies
-  `yarn`
+  - `yarn`
 - Start the application
-  `yarn start`
-- This will start the application on `http://localhost:3000`
+  - `yarn start`
+- This will start the application on  
+  - `http://localhost:3000`
 
 ## Contributing
 
