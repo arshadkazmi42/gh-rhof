@@ -10,7 +10,7 @@ Generates hall of fame for github readme using the github contributors api
 
 > Give us a :star: if you like our work :smile:
 
-## Sample Usage
+## Demo
 
 <img src="assets/usage.gif" alt="gh-rhof"/> <br>
 
