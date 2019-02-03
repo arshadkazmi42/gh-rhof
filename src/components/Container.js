@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import fetch from 'node-fetch';
+import rhof from '@gh-conf/rhof'
 
 import {
   ButtonPrimary,
@@ -11,9 +11,6 @@ import {
   PopupDialog
 } from '../components';
 
-
-const TEMPLATE = `<a href='https://github.com/{{username}})'><img src="https://github.com/{{username}}.png" width="30" /></a>`
-
 const styles = theme => ({
   button: {
     margin: theme.spacing.unit,
@@ -22,24 +19,6 @@ const styles = theme => ({
     display: 'none',
   },
 });
-
-
-const fetchContributors = async (username, repository) => {
-
-  const response = await fetch(`https://api.github.com/repos/${username}/${repository}/contributors`);
-  const contributors = await response.json();
-  return formatHof(contributors);
-}
-
-const formatHof = (contributors) => {
-
-  let hof = '';
-  for (let i = 0; i < contributors.length; i++) {
-    hof = `${hof}${TEMPLATE.replace(/{{username}}/g, contributors[i].login)}`
-  }
-
-  return hof;
-}
 
 class Container extends Component {
   constructor(props) {
@@ -54,7 +33,7 @@ class Container extends Component {
   }
 
   updateContributors = async (username, repository) => {
-    const contributors = await fetchContributors(username, repository);
+    const contributors = await rhof(username, repository);
     this.setState({
       hof: contributors,
       isLoading: false
