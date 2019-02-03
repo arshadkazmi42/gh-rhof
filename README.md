@@ -2,7 +2,7 @@
 
 [![Build](https://img.shields.io/travis/com/arshadkazmi42/rhof.svg)](https://travis-ci.com/arshadkazmi42/rhof/)
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/rhof.svg)](https://github.com/arshadkazmi42/rhof)
-[![LICENSE](https://img.shields.io/npm/l/rhof.svg)](https://github.com/arshadkazmi42/rhof/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/arshadkazmi42/rhof.svg)](https://github.com/arshadkazmi42/rhof/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/rhof.svg)](https://github.com/arshadkazmi42/rhof/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/rhof.svg)](https://github.com/arshadkazmi42/rhof/commits/master)
 
