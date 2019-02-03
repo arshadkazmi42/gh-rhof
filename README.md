@@ -1,4 +1,4 @@
-# rhof
+# rhof :sparkles:
 
 Generates hall of fame for github readme using the github contributors api
 
