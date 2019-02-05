@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@gh-conf/rhof": "^1.0.0",
+    "@gh-conf/rhof": "^1.0.1",
     "@material-ui/core": "^3.9.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

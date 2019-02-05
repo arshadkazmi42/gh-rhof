@@ -870,10 +870,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@gh-conf/rhof@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@gh-conf/rhof/-/rhof-1.0.0.tgz#79f85790c893dc0d9f433785fd4e19deb1704d05"
-  integrity sha512-QxQVdOUpWjU5wX2P+wJjj49l8GsAXYcTkRqHL5TVEOjBg9NOtjcou1PoYtrn08x925fq0S7f12hxRkWnGd557A==
+"@gh-conf/rhof@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@gh-conf/rhof/-/rhof-1.0.1.tgz#0408012936758bbc50667eceab64849c283cfa41"
+  integrity sha512-xMAr4lhw0zWWTvk8if6ecAO9HO+SWil0iImbi7gi9B3jvyI0wolc7Z+/tQNd2no9FggIkovCEyjDUfao7C76wQ==
   dependencies:
     node-fetch "^2.3.0"
 
