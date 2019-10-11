@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import GithubCorner from 'react-github-corner';
 import { withStyles } from '@material-ui/core/styles';
 import rhof from '@gh-conf/rhof'
 
@@ -85,6 +86,7 @@ class Container extends Component {
 
     return (
       <div style={{ padding: '40px' }}>
+        <GithubCorner href="https://github.com/arshadkazmi42/gh-rhof" />
         <Heading>
           Generate Github Respository Hall of Fame
         </Heading>
