@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import {withStyles} from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 
 const styles = theme => ({
@@ -13,23 +13,22 @@ const styles = theme => ({
 });
 
 function ContainedButtons(props) {
-  const { children, classes, onClick } = props;
+  const {children, classes, onClick} = props;
   return (
-    <div>
       <Button
-        variant="contained"
-        color="primary"
-        className={classes.button}
-        onClick={onClick}
+          variant="contained"
+          color="primary"
+          className={`${classes.button} ${props.className}`}
+          onClick={onClick}
       >
         {children}
       </Button>
-    </div>
   );
 }
 
 ContainedButtons.propTypes = {
   classes: PropTypes.object.isRequired,
+  className: PropTypes.string
 };
 
 export default withStyles(styles)(ContainedButtons);

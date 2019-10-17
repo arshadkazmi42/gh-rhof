@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import { CodeView, Paper } from '../components';
+import {withStyles} from '@material-ui/core/styles';
+import {CodeView, Paper} from '../components';
 
 const styles = () => ({
   hof: {
@@ -10,30 +10,30 @@ const styles = () => ({
     display: 'flex',
     flexDirection: 'column'
   },
-  hofRender: { 
-    flex: 1, 
-    marginBottom: '20px' 
+  hofRender: {
+    flex: 1,
+    marginBottom: '20px'
   },
-  hofMarkdown: { 
+  hofMarkdown: {
     flex: 1
   }
 });
 
 function HallOfFame(props) {
-  const { hof, classes } = props;
+  const {hof, classes} = props;
   return (
-    <div className={classes.hof}>
-      <div className={classes.hofRender}>
-        <Paper title={'Hall of Fame'}>
-          <div dangerouslySetInnerHTML={{ __html: hof }} />
-        </Paper>
+      <div className={classes.hof}>
+        <div className={classes.hofRender}>
+          <Paper title={'Hall of Fame'}>
+            <div dangerouslySetInnerHTML={{__html: hof}}/>
+          </Paper>
+        </div>
+        <div className={classes.hofMarkdown}>
+          <Paper title={'Markdown Code'}>
+            <CodeView>{hof}</CodeView>
+          </Paper>
+        </div>
       </div>
-      <div className={classes.hofMarkdown}>
-        <Paper title={'Markdown Code'}>
-          <CodeView>{hof}</CodeView>
-        </Paper>
-      </div>
-    </div>
   );
 }
 

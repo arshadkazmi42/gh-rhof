@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import {withStyles} from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 
 const styles = theme => ({
@@ -24,28 +24,28 @@ const styles = theme => ({
 class Input extends React.Component {
 
   render() {
-    const { 
-      classes, 
-      name, 
-      defaultValue, 
-      required, 
+    const {
+      classes,
+      name,
+      defaultValue,
+      required,
       error,
       onChange
     } = this.props;
 
     return (
-      
+
         <TextField
-          error={error}
-          required={required}
-          label={name}
-          name={name.toLowerCase()}
-          defaultValue={defaultValue}
-          className={classes.textField}
-          onChange={onChange}
-          id="outlined-required"
-          margin="normal"
-          variant="outlined"
+            error={error}
+            required={required}
+            label={name}
+            name={name.toLowerCase()}
+            defaultValue={defaultValue}
+            className={`${classes.textField} ${this.props.className}`}
+            onChange={onChange}
+            id="outlined-required"
+            margin="normal"
+            variant="outlined"
         />
 
     );
@@ -54,6 +54,7 @@ class Input extends React.Component {
 
 Input.propTypes = {
   classes: PropTypes.object.isRequired,
+  className: PropTypes.string
 };
 
 export default withStyles(styles)(Input);

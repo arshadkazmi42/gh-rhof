@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import GithubCorner from 'react-github-corner';
-import { withStyles } from '@material-ui/core/styles';
+import {withStyles} from '@material-ui/core/styles';
 import rhof from '@gh-conf/rhof'
 
 import {
@@ -13,14 +13,7 @@ import {
   Credit,
 } from '../components';
 
-const styles = theme => ({
-  button: {
-    margin: theme.spacing.unit,
-  },
-  input: {
-    display: 'none',
-  },
-});
+const styles = theme => ({});
 
 class Container extends Component {
   constructor(props) {
@@ -65,7 +58,7 @@ class Container extends Component {
     }
 
     // Start Loader
-    this.setState({ isLoading: true })
+    this.setState({isLoading: true})
 
     // Update contributors hof in state
     await this.updateContributors(this.state.username, this.state.repository)
@@ -74,7 +67,7 @@ class Container extends Component {
   handlePopupClose = () => {
 
     // Closes popup
-    this.setState({ showPopup: false })
+    this.setState({showPopup: false})
   }
 
   render() {
@@ -86,24 +79,26 @@ class Container extends Component {
     } = this.state
 
     return (
-      <div style={{ padding: '40px' }}>
-        <GithubCorner href="https://github.com/arshadkazmi42/gh-rhof" />
-        <Heading>
-          Generate Github Respository Hall of Fame
-        </Heading>
-        <PopupDialog
-          showPopup={showPopup} onClose={this.handlePopupClose}
-          title={'Error!!!'} message={validateMessage}
-        />
-        <Input required error={showPopup} name='Username' defaultValue='' onChange={this.handleOnChange} />
-        <Input required error={showPopup} name='Repository' defaultValue='' onChange={this.handleOnChange} />
-        <ButtonPrimary onClick={this.handleOnSubmit}>
-          Get Contributors
-        </ButtonPrimary>
-        {isLoading && <CircularProgress />}
-        {hof && <HallOfFame hof={hof} />}
-        <Credit />
-      </div>
+        <div className='container'>
+          <GithubCorner href="https://github.com/arshadkazmi42/gh-rhof"/>
+          <Heading className='heading'>
+            Generate Github Respository Hall of Fame
+          </Heading>
+          <PopupDialog
+              showPopup={showPopup} onClose={this.handlePopupClose}
+              title={'Error!!!'} message={validateMessage}
+          />
+          <Input className='input' required error={showPopup} name='Username' defaultValue=''
+                 onChange={this.handleOnChange}/>
+          <Input className='input' required error={showPopup} name='Repository' defaultValue=''
+                 onChange={this.handleOnChange}/>
+          <ButtonPrimary className='button' onClick={this.handleOnSubmit}>
+            Get Contributors
+          </ButtonPrimary>
+          {isLoading && <CircularProgress/>}
+          {hof && <HallOfFame classes={{hof: 'hof-container'}} hof={hof}/>}
+          <Credit/>
+        </div>
     );
   }
 }
