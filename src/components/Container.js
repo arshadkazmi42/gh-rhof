@@ -9,7 +9,8 @@ import {
   HallOfFame,
   Heading,
   Input,
-  PopupDialog
+  PopupDialog,
+  Credit,
 } from '../components';
 
 const styles = theme => ({
@@ -101,6 +102,7 @@ class Container extends Component {
         </ButtonPrimary>
         {isLoading && <CircularProgress />}
         {hof && <HallOfFame hof={hof} />}
+        <Credit />
       </div>
     );
   }
