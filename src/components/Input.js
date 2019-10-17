@@ -24,24 +24,24 @@ const styles = theme => ({
 class Input extends React.Component {
 
   render() {
-    const { 
-      classes, 
-      name, 
-      defaultValue, 
-      required, 
+    const {
+      classes,
+      name,
+      defaultValue,
+      required,
       error,
       onChange
     } = this.props;
 
     return (
-      
+
         <TextField
           error={error}
           required={required}
           label={name}
           name={name.toLowerCase()}
           defaultValue={defaultValue}
-          className={classes.textField}
+          className={`${classes.textField} ${this.props.className}`}
           onChange={onChange}
           id="outlined-required"
           margin="normal"
@@ -54,6 +54,7 @@ class Input extends React.Component {
 
 Input.propTypes = {
   classes: PropTypes.object.isRequired,
+  className: PropTypes.string
 };
 
 export default withStyles(styles)(Input);

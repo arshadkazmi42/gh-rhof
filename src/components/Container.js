@@ -14,11 +14,13 @@ import {
 } from '../components';
 
 const styles = theme => ({
+
   button: {
-    margin: theme.spacing.unit,
+    //margin: theme.spacing.unit,
+
   },
   input: {
-    display: 'none',
+    //display: 'none',
   },
 });
 
@@ -86,22 +88,22 @@ class Container extends Component {
     } = this.state
 
     return (
-      <div style={{ padding: '40px' }}>
+      <div className='container'>
         <GithubCorner href="https://github.com/arshadkazmi42/gh-rhof" />
-        <Heading>
+        <Heading className='heading'>
           Generate Github Respository Hall of Fame
         </Heading>
         <PopupDialog
           showPopup={showPopup} onClose={this.handlePopupClose}
           title={'Error!!!'} message={validateMessage}
         />
-        <Input required error={showPopup} name='Username' defaultValue='' onChange={this.handleOnChange} />
-        <Input required error={showPopup} name='Repository' defaultValue='' onChange={this.handleOnChange} />
-        <ButtonPrimary onClick={this.handleOnSubmit}>
+        <Input className='input' required error={showPopup} name='Username' defaultValue='' onChange={this.handleOnChange} />
+        <Input className='input' required error={showPopup} name='Repository' defaultValue='' onChange={this.handleOnChange} />
+        <ButtonPrimary className='button' onClick={this.handleOnSubmit}>
           Get Contributors
         </ButtonPrimary>
         {isLoading && <CircularProgress />}
-        {hof && <HallOfFame hof={hof} />}
+        {hof && <HallOfFame classes={{hof:'hof-container'}} hof={hof} />}
         <Credit />
       </div>
     );

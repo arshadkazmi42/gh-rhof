@@ -10,11 +10,11 @@ const styles = () => ({
     display: 'flex',
     flexDirection: 'column'
   },
-  hofRender: { 
-    flex: 1, 
-    marginBottom: '20px' 
+  hofRender: {
+    flex: 1,
+    marginBottom: '20px'
   },
-  hofMarkdown: { 
+  hofMarkdown: {
     flex: 1
   }
 });
