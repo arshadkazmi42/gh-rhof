@@ -20,7 +20,7 @@ const styles = theme => ({
 function Credit({ classes}) {
   return (
     <div className={classes.footer}>
-      <b>Credit:</b> Favicon made by <a className={classes.link} href="https://www.flaticon.com/authors/eucalyp">Eucalyp</a> from <a className={classes.link} href="http://www.flaticon.com/">www.flaticon.com</a>
+      Favicon made by <a className={classes.link} href="https://www.flaticon.com/authors/eucalyp">Eucalyp</a> from <a className={classes.link} href="http://www.flaticon.com/">www.flaticon.com</a>
     </div>
   );
 };
