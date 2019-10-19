@@ -30,3 +30,15 @@
     transform: rotate(360deg);
   }
 }
+
+.main-text {
+  text-shadow: 1px 1px 1px blue;
+}
+
+.footer{
+  background-color: black;
+}
+
+.git-img img{
+  width: 300px;
+}
