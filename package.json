@@ -1,6 +1,6 @@
 {
   "name": "gh-rhof",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@gh-conf/rhof": "^1.0.1",
