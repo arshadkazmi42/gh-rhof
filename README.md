@@ -37,11 +37,6 @@ You can contribute to this project by giving [suggestions](https://github.com/ar
 
 Read our contributing [guide](CONTRIBUTING.md) on getting started with contribution
 
-## Contributors
-
-Thank you to all the contributors who help in making this project better :raised_hands:
-
-<a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a><a href="https://github.com/dependabot[bot]"><img src="https://github.com/dependabot[bot].png" width="30" /></a><a href="https://github.com/mhadaily"><img src="https://github.com/mhadaily.png" width="30" /></a>
 
 ## Credits
 
