@@ -82,7 +82,7 @@ class Container extends Component {
         <div className='container'>
           <GithubCorner href="https://github.com/arshadkazmi42/gh-rhof"/>
           <Heading className='heading'>
-            Generate Github Respository Hall of Fame
+            Generate Github Repository Hall of Fame
           </Heading>
           <PopupDialog
               showPopup={showPopup} onClose={this.handlePopupClose}
@@ -90,7 +90,7 @@ class Container extends Component {
           />
           <Input className='input' required error={showPopup} name='Username' defaultValue=''
                  onChange={this.handleOnChange}/>
-          <Input className='input' required error={showPopup} name='Repository' defaultValue=''
+          <Input className='input' required error={showPopup} name='Repository Name' defaultValue=''
                  onChange={this.handleOnChange}/>
           <ButtonPrimary className='button' onClick={this.handleOnSubmit}>
             Get Contributors
