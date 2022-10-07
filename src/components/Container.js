@@ -29,8 +29,10 @@ class Container extends Component {
 
   updateContributors = async (username, repository) => {
     const contributors = await rhof(username, repository);
+    const watermark = "<br><span style='text-align=center'>Generated using <a target='_blank' href='https://gh-hof.netlify.app/'>gh-rhof</a></span>";
+
     this.setState({
-      hof: contributors,
+      hof: contributors + watermark,
       isLoading: false
     })
   }
