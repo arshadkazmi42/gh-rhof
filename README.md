@@ -1,10 +1,7 @@
 # gh-rhof :sparkles:
 
 [![Build](https://github.com/arshadkazmi42/gh-rhof/actions/workflows/nodejs.yml/badge.svg)](https://github.com/arshadkazmi42/gh-rhof/actions/workflows/nodejs.yml)
-[![NPM Version](https://img.shields.io/npm/v/gh-rhof.svg)](https://www.npmjs.com/package/gh-rhof)
-[![NPM Downloads](https://img.shields.io/npm/dt/gh-rhof.svg)](https://www.npmjs.com/package/gh-rhof)
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof)
-[![LICENSE](https://img.shields.io/npm/l/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof/blob/master/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof/commits/master)
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof/graphs/contributors)
