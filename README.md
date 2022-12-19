@@ -1,5 +1,14 @@
 # gh-rhof :sparkles:
 
+[![Build](https://github.com/tuhinmallick/gh-rhof/actions/workflows/nodejs.yml/badge.svg)](https://github.com/tuhinmallick/gh-rhof/actions/workflows/nodejs.yml)
+[![NPM Version](https://img.shields.io/npm/v/gh-rhof.svg)](https://www.npmjs.com/package/gh-rhof)
+[![NPM Downloads](https://img.shields.io/npm/dt/gh-rhof.svg)](https://www.npmjs.com/package/gh-rhof)
+[![Github Repo Size](https://img.shields.io/github/repo-size/tuhinmallick/gh-rhof.svg)](https://github.com/tuhinmallick/gh-rhof)
+[![LICENSE](https://img.shields.io/npm/l/gh-rhof.svg)](https://github.com/tuhinmallick/gh-rhof/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/tuhinmallick/gh-rhof.svg)](https://github.com/tuhinmallick/gh-rhof/graphs/contributors)
+[![Commit](https://img.shields.io/github/last-commit/tuhinmallick/gh-rhof.svg)](https://github.com/tuhinmallick/gh-rhof/commits/master)
+
+
 [![Build](https://img.shields.io/travis/com/arshadkazmi42/gh-rhof.svg)](https://travis-ci.com/arshadkazmi42/gh-rhof/)
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof)
 [![LICENSE](https://img.shields.io/github/license/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof/LICENSE)
