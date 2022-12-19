@@ -1,8 +1,9 @@
 # gh-rhof :sparkles:
 
-[![Build](https://img.shields.io/travis/com/arshadkazmi42/gh-rhof.svg)](https://travis-ci.com/arshadkazmi42/gh-rhof/)
+[![Build](https://github.com/arshadkazmi42/gh-rhof/actions/workflows/nodejs.yml/badge.svg)](https://github.com/arshadkazmi42/gh-rhof/actions/workflows/nodejs.yml)
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof)
-[![LICENSE](https://img.shields.io/github/license/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof/graphs/contributors)
+[![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof/commits/master)
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/gh-rhof.svg)](https://github.com/arshadkazmi42/gh-rhof/commits/master)
 
